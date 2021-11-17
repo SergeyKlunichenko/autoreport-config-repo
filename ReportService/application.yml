@@ -4,6 +4,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/autorep
     username: admin
     password: admin
+    driver-class: org.postgresql.Driver
 
   jpa:
     generate-ddl: true
