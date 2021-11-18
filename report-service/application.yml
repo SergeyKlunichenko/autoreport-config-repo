@@ -16,11 +16,16 @@ spring:
         format_sql: false
         temp:
           use_jdbc_metadata_defaults: false
+
     show-sql: true
 
 
   application:
     name: report-service
+
+hibernate:
+  temp:
+    use_jdbc_metadata_defaults: false 
 
 server:
   port: 9003
