@@ -28,7 +28,7 @@ hibernate:
     use_jdbc_metadata_defaults: false 
 
 server:
-  port: 9003
+  port: 9004
   
 
 logging:

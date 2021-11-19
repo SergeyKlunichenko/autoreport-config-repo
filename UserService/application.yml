@@ -4,7 +4,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/autorep
     username: admin
     password: admin
-    driver-class-name: org.postgresql.Driver
 
   jpa:
     generate-ddl: true
@@ -19,17 +18,12 @@ spring:
 
     show-sql: true
 
-
   application:
-    name: report-service
-
-hibernate:
-  temp:
-    use_jdbc_metadata_defaults: false 
+    name: task-service
 
 server:
-  port: 9003
-  
+  port: 9005
+
 
 logging:
   level:
