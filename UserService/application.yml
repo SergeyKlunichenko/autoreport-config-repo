@@ -19,7 +19,7 @@ spring:
     show-sql: true
 
   application:
-    name: task-service
+    name: user-service
 
 server:
   port: 9005
