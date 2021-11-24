@@ -19,20 +19,6 @@ spring:
     show-sql: true
 
 
-feign:
- client:
-  config:
-    default: 
-      connectTimeout: 160000000
-      readTimeout: 160000000
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 200000
 
 logging:
     level:
