@@ -18,7 +18,12 @@ spring:
 
     show-sql: true
 
-
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 600000
+        readTimeout: 100000
 
 logging:
     level:
